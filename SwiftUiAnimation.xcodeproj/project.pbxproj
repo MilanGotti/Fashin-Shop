@@ -18,6 +18,8 @@
 		880EE58E26EA2906007205A0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880EE58D26EA2906007205A0 /* DetailView.swift */; };
 		880EE59026EA331A007205A0 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880EE58F26EA331A007205A0 /* ColorView.swift */; };
 		BD29E58026EA437300774976 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29E57F26EA437300774976 /* CustomCorner.swift */; };
+		BDCC7C3426EBA20500D8ED2E /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC7C3326EBA20500D8ED2E /* SideBarView.swift */; };
+		BDCC7C3726EBA21300D8ED2E /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC7C3626EBA21300D8ED2E /* Rotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		880EE58D26EA2906007205A0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		880EE58F26EA331A007205A0 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		BD29E57F26EA437300774976 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		BDCC7C3326EBA20500D8ED2E /* SideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		BDCC7C3626EBA21300D8ED2E /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		880EE58326EA09CA007205A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BDCC7C3326EBA20500D8ED2E /* SideBarView.swift */,
 				880EE58526EA09F2007205A0 /* Home.swift */,
 				880EE58926EA1722007205A0 /* TabButton.swift */,
 				880EE58B26EA2043007205A0 /* BagView.swift */,
@@ -101,6 +106,7 @@
 		880EE58426EA09CF007205A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDCC7C3626EBA21300D8ED2E /* Rotation.swift */,
 				880EE58726EA0FC5007205A0 /* ModelData.swift */,
 			);
 			path = Model;
@@ -178,6 +184,8 @@
 				880EE57726EA01D9007205A0 /* ContentView.swift in Sources */,
 				880EE58826EA0FC5007205A0 /* ModelData.swift in Sources */,
 				880EE58626EA09F2007205A0 /* Home.swift in Sources */,
+				BDCC7C3426EBA20500D8ED2E /* SideBarView.swift in Sources */,
+				BDCC7C3726EBA21300D8ED2E /* Rotation.swift in Sources */,
 				BD29E58026EA437300774976 /* CustomCorner.swift in Sources */,
 				880EE58E26EA2906007205A0 /* DetailView.swift in Sources */,
 				880EE59026EA331A007205A0 /* ColorView.swift in Sources */,
